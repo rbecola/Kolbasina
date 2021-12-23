@@ -147,13 +147,9 @@ body {
   position: relative;
   width: 68%;
   height: 68%;
-/* height: 11.77%; */
-z-index: 1;
-/* float: right; */
-/* left: 205%;
-top: -185%; */
-top: 20%;
-left: 20%;
+  z-index: 1;
+  top: 20%;
+  left: 20%;
 }
 
 
@@ -179,8 +175,8 @@ div.sq4, div.sq5 {
   position: relative;
 }
 div.sq4 h1 {
-position:absolute;
-transform: translate(0, 16%);
+  position:absolute;
+  transform: translate(0, 16%);
 }
 .sq4 {
   width: 33.4%;
@@ -200,10 +196,10 @@ transform: translate(0, 16%);
   background-color: #FF0000;
 }
 div.sq5 h1 {
-position:absolute;
-transform: translate(0, 6%);
-width: 120%;
-color: #FFFFFF;
+  position:absolute;
+  transform: translate(0, 6%);
+  width: 120%;
+  color: #FFFFFF;
 }
 .call {
   width: 90%;
@@ -258,8 +254,7 @@ color: #000000;
   width: 100%;
   height: 100%;
   position: relative;
-  left: 199%;
-  top: -116%;
+  transform: translate(199.4%, -108.8%);
   z-index: 1;
 }
 
@@ -429,28 +424,13 @@ color: #000000;
   vertical-align: top;
   background-color: #FFFFFF;
 }
-/* div.sq21 p.name {
-position:relative;
-transform: translate(0%, 120%);
-color: #000000;
-}
-div.sq21 p.number {
-position:relative;
-transform: translate(50%, 20%);
-color: #000000;
-}
-div.sq21 p.alina {
-position:relative;
-transform: translate(63%, -80%);
-color: #000000;
-} */
   .logo {
     width: 80%;
     height: 80%;
     top: 10%;
     left: 10%;
     position: absolute;
-  }
+}
 .cat {
   width: 95%;
   height: 90%;
